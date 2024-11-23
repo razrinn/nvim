@@ -55,6 +55,7 @@ return {
             ['<C-l>'] = require('telescope.actions').select_default, -- open file
           },
         },
+        file_ignore_patterns = { '^public/tradingview/', 'yarn.lock' },
       },
       pickers = {
         find_files = {
